@@ -1,5 +1,5 @@
-baseURL = "http://www.example.com"
-title = "Minimo"
+baseURL = "/"
+title = "Computer Security Tips"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
@@ -21,8 +21,13 @@ enableEmoji = true
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
 
+[params.longDescription]
+content = """
+This is a test description.
+"""
+
 [params.info]
-description = "Minimalist theme for Hugo"
+description = "Stay safe online"
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -127,7 +132,7 @@ tag = "tags"
 page = "/:slug/"
 
 [[menu.main]]
-name = "Repo"
+name = "About"
 weight = -10
 identifier = "repository"
 url = "https://github.com/MunifTanjim/minimo"
