@@ -23,11 +23,11 @@ defaultContentLanguage = "en"
 
 [params.longDescription]
 content = """
-This is a test description.
+This blog will teach you just enough about how computers and the Internet work. It will also give you practical advice on how to stay safe online and on your computer. 
 """
 
 [params.info]
-description = "Stay safe online"
+description = "by [Asim Ihsan](https://asim.ihsan.io)"
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -38,8 +38,8 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
-holder = "MunifTanjim"
-startYear = "2017"
+holder = "Asim Ihsan"
+startYear = "2020"
 suffix = ""
 
 [params.settings]
@@ -59,10 +59,16 @@ hideMainMenu = false
 enable = true
 
 [params.widgets]
-header = ["breadcrumbs"]
+#header = ["breadcrumbs"]
+header = []
+
 homepage = ["recent_posts"]
-sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
-footer = ["social_menu"]
+
+#sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
+sidebar = ["about"]
+
+#footer = ["social_menu"]
+footer = []
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -77,17 +83,17 @@ page = "" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-codepen = "MunifTanjim"
-email = "contact@example.com"
-facebook = "MunifTanjim"
-github = "MunifTanjim"
-gitlab = "MunifTanjim"
-instagram = "MunifTanjim"
-linkedin = "muniftanjim"
-twitter = "MunifTanjim"
-telegram = "MunifTanjim"
-google_scholar = "qc6CJjYAAAAJ"
-youtube = "UCT-U0rNerYxItGcuoPX-WYA"
+#codepen = "MunifTanjim"
+#email = "contact@example.com"
+#facebook = "MunifTanjim"
+#github = "MunifTanjim"
+#gitlab = "MunifTanjim"
+#instagram = "MunifTanjim"
+#linkedin = "muniftanjim"
+#twitter = "MunifTanjim"
+#telegram = "MunifTanjim"
+#google_scholar = "qc6CJjYAAAAJ"
+#youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 
 [params.comments]
 enable = false
@@ -99,7 +105,7 @@ scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [params.comments.staticman]
-enable = true
+enable = false
 apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 2
 username = "MunifTanjim"
@@ -111,8 +117,8 @@ enable = false
 issueTerm = "pathname" # pathname / url / title
 
 [params.comments.utterances.github]
-username = "MunifTanjim"
-repository = "minimo"
+#username = "MunifTanjim"
+#repository = "minimo"
 
 [params.search]
 client = "fuse" # algolia / fuse / lunr
@@ -135,7 +141,7 @@ page = "/:slug/"
 name = "About"
 weight = -10
 identifier = "repository"
-url = "https://github.com/MunifTanjim/minimo"
+url = "/posts/about-this-blog/"
 
 [blackfriday]
 hrefTargetBlank = true

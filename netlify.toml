@@ -1,3 +1,7 @@
+# References
+# https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file
+# https://gohugo.io/hosting-and-deployment/hosting-on-netlify/
+
 [build]
 publish = "public"
 command = "hugo --gc --minify --buildDrafts"
