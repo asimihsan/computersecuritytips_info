@@ -39,7 +39,7 @@ HUGO_ENABLEGITINFO = "true"
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'none'; img-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'"
     X-Frame-Options = "DENY"
 
     # Prevent browsers from incorrectly detecting non-scripts as scripts
