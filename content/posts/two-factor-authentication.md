@@ -1,8 +1,38 @@
 ---
-title: "Two Factor Authentication"
+title: "Two-Factor Authentication (2FA)"
 date: 2020-07-22T23:27:15-07:00
 draft: true
 ---
+
+Two-factor authentication (2FA) is a feature that websites offer that make it harder for hackers to break into
+your account. Let me describe why and how to set it up on a few example websites.
+
+Usually, when you log into a website you use your email address or a username and a password. Your password is
+a shared secret that only you and the website know. When you use this secret password with a website, it knows
+you must be who you say you are, because nobody else knows the password. Sometimes this password doesn't
+always stay a secret. If you use an easy-to-guess password, or hackers break into the website and get access
+to the passwords, other people can pretend to be you.
+
+In 2018 an estimated 4.5 billion records were breached from websites. In 2019 an estimated 2.7 billion
+identifying records were posted on the web for sale [1]. In 2020 due to the global COVID-19 crisis, attackers
+are focusing more on health-care data at an even larger scale [2]. For vital services like online government
+portals or email accounts, you may need additional security that a password alone cannot provide.
+
+Hence many websites today give the option to identify you not just using a secret password but also with your
+phone. For example, once you log in with your password, the website sends an SMS text message to your phone
+number containing a six-digit code that you must then type in. Only someone with your phone can log into the
+website. Even if a hacker guesses your password or hacks the website's passwords, it very unlikely they will
+also have access to your phone.
+
+A password is something you know. A phone is something you have. By setting up a website to only recognize you
+based on both something you know and something you have, you are using two-factor authentication (2FA). The
+first factor is your password, and the second factor is your phone number.
+
+TODO
+
+[1] https://en.wikipedia.org/wiki/List_of_data_breaches
+
+[2] https://securityboulevard.com/2020/04/a-round-up-of-data-breaches-in-march-2020/
 
 ## Notes
 
@@ -18,7 +48,7 @@ Colnago, Jessica, et al. "“It's not actually that horrible” Exploring Adopti
     -   Provide clear instructions on how to use, and simple steps for avoiding lockout and what to do if locked out
     -   Convince users that 2FA is valuable and easy to use.
 
-Reese, Ken et al. “A Usability Study of Five Two-Factor Authentication Methods.” SOUPS @ USENIX Security Symposium (2019).
+Reese, Ken et al. “A Usability Study of Five Two-Factor Authentication Methods.” SOUPS @ USENIX Security Symposium (2019). https://www.usenix.org/system/files/soups2019-reese.pdf
 
 -   "However, about one-third of the participants reported an instance of not having their second-factor
     device immediately available when they needed it."
