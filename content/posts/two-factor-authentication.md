@@ -5,8 +5,12 @@ draft: true
 slug: "two-factor-authentication"
 ---
 
+### Summary
+
 Two-factor authentication (2FA) is a feature that websites offer that make it harder for hackers to break into
-your account. Let me describe why and how to set it up on a few example websites.
+your account. Enable 2FA on critical websites like your email account.
+
+### What is the problem?
 
 Usually, when you log into a website you use your email address or a username and a password. Your password is
 a shared secret that only you and the website know. When you use this secret password with a website, it knows
@@ -14,12 +18,17 @@ you must be who you say you are, because nobody else knows the password. Sometim
 always stay a secret. If you use an easy-to-guess password, or hackers break into the website and get access
 to the passwords, other people can pretend to be you.
 
-In 2018 an estimated 4.5 billion records were breached from websites. In 2019 an estimated 2.7 billion
-identifying records were posted on the web for sale [1]. In 2020 due to the global COVID-19 crisis, attackers
-are focusing more on health-care data at an even larger scale [2]. For vital services like online government
-portals or email accounts, you may need additional security that a password alone cannot provide.
+Hackers are continuing to get access to private data, including passwords, at an alarming rate. In 2018 an
+estimated 4.5 billion records were breached from websites. In 2019 an estimated 2.7 billion identifying
+records were posted on the web for sale [^1]. In 2020 due to the global COVID-19 crisis, attackers are
+focusing more on health-care data at an even larger scale [^2].
 
-Hence many websites today give the option to identify you not just using a secret password but also with your
+For vital services like online government portals or email accounts, you may need additional security that a
+password alone cannot provide.
+
+### What is a solution?
+
+Many websites today give the option to identify you not just using a secret password but also with your
 phone. For example, once you log in with your password, the website sends an SMS text message to your phone
 number containing a six-digit code that you must then type in. Only someone with your phone can log into the
 website. Even if a hacker guesses your password or hacks the website's passwords, it very unlikely they will
@@ -27,15 +36,36 @@ also have access to your phone.
 
 A password is **something you know**. A phone is **something you have**. By setting up a website to only
 recognize you based on both something you know and something you have, you are using **two-factor
-authentication (2FA)**. The first factor is your password, and the second factor is your phone number.
+authentication (2FA)**. The first factor is your password, and the second factor is your phone number. Some
+websites also refer to 2FA as **two-factor verification**.
+
+### Examples of how to use 2FA
+
+Search online for how to enable 2FA and you will usually find easy to follow instructions. For example:
+
+- for Gmail, search for ["gmail enable two factor
+  authentication"](https://duckduckgo.com/?q=gmail+enable+two+factor+authentication&t=hk&ia=web). You'll then
+  find a link ["Google 2-Step Verification"](https://www.google.com/landing/2step/) with instructions to
+  follow.
+- for Facebook, search for ["facebook enable two factor
+  authentication"](https://duckduckgo.com/?q=facebook+enable+two+factor+authentication&t=hk). You'll then find
+  a page ["What is two-factor authentication and how does it work on
+  Facebook?"](https://www.facebook.com/help/148233965247823/) with instructions to follow.
+
+Almost all websites today offer 2FA as a feature. If they don't, this is a good sign that the company isn't
+focused on the security of their customer's data, and you should look for other websites to use instead.
+
+
+### What can go wrong?
 
 TODO
 
-[1] https://en.wikipedia.org/wiki/List_of_data_breaches
+### Footnotes
 
-[2] https://securityboulevard.com/2020/04/a-round-up-of-data-breaches-in-march-2020/
+[^1]: https://en.wikipedia.org/wiki/List_of_data_breaches
+[^2]: https://securityboulevard.com/2020/04/a-round-up-of-data-breaches-in-march-2020/
 
-## Notes
+### Notes
 
 Colnago, Jessica, et al. "“It's not actually that horrible” Exploring Adoption of Two-Factor Authentication at a University." Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 2018. https://jessica.colnago.org/publications/Colnago2018.pdf
 
