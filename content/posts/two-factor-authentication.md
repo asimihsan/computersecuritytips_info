@@ -24,9 +24,9 @@ number containing a six-digit code that you must then type in. Only someone with
 website. Even if a hacker guesses your password or hacks the website's passwords, it very unlikely they will
 also have access to your phone.
 
-A password is something you know. A phone is something you have. By setting up a website to only recognize you
-based on both something you know and something you have, you are using two-factor authentication (2FA). The
-first factor is your password, and the second factor is your phone number.
+A password is **something you know**. A phone is **something you have**. By setting up a website to only
+recognize you based on both something you know and something you have, you are using **two-factor
+authentication (2FA)**. The first factor is your password, and the second factor is your phone number.
 
 TODO
 
