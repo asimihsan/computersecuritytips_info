@@ -20,3 +20,7 @@ Colnago, Jessica, et al. "“It's not actually that horrible” Exploring Adopti
 
 Reese, Ken et al. “A Usability Study of Five Two-Factor Authentication Methods.” SOUPS @ USENIX Security Symposium (2019).
 
+-   "However, about one-third of the participants reported an instance of not having their second-factor
+    device immediately available when they needed it."
+-   Two thirds of participants using TOTP had a problem typing it in before timeout
+-   25% of participants felt like backup codes are just another password, did not understand
