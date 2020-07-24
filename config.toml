@@ -23,7 +23,7 @@ defaultContentLanguage = "en"
 
 [params.longDescription]
 content = """
-This blog will teach you just enough about how computers and the Internet work. It will also give you practical advice on how to stay safe online and on your computer. 
+This blog will teach you just enough theory and practice about how computers and the Internet work to stay safe online. Please also read [about this blog](/posts/about-this-blog/).
 """
 
 [params.info]
