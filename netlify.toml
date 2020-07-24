@@ -1,6 +1,7 @@
 # References
 # https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file
 # https://gohugo.io/hosting-and-deployment/hosting-on-netlify/
+# https://www.josephearl.co.uk/post/static-sites-netlify-security/
 
 [build]
 publish = "public"
@@ -33,3 +34,15 @@ HUGO_VERSION = "0.74.2"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Block site from being framed with X-Frame-Options and CSP
+    Content-Security-Policy: frame-ancestors 'none'
+    X-Frame-Options: DENY
+
+    # Prevent browsers from incorrectly detecting non-scripts as scripts
+    X-Content-Type-Options: nosniff
+
+    X-XSS-Protection = "1; mode=block"
