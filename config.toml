@@ -23,7 +23,7 @@ defaultContentLanguage = "en"
 
 [params.longDescription]
 content = """
-This blog will teach you just enough theory and practice about how computers and the Internet work to stay safe online. Please also read [about this blog](/posts/about-this-blog/).
+This blog will teach you just enough theory and practice about how computers and the Internet work to stay safe online. Please also read [about this blog](/about/).
 """
 
 [params.info]
@@ -59,8 +59,8 @@ hideMainMenu = false
 enable = true
 
 [params.widgets]
-#header = ["breadcrumbs"]
-header = []
+header = ["breadcrumbs"]
+#header = []
 
 homepage = ["recent_posts"]
 
@@ -136,12 +136,13 @@ tag = "tags"
 
 [permalinks]
 page = "/:slug/"
+posts = "/:slug/"
 
 [[menu.main]]
 name = "About"
 weight = -10
 identifier = "repository"
-url = "/posts/about-this-blog/"
+url = "/about/"
 
 [blackfriday]
 hrefTargetBlank = true

@@ -2,6 +2,7 @@
 title: "Two-Factor Authentication (2FA)"
 date: 2020-07-22T23:27:15-07:00
 draft: true
+slug: "two-factor-authentication"
 ---
 
 Two-factor authentication (2FA) is a feature that websites offer that make it harder for hackers to break into
