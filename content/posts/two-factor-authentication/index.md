@@ -11,12 +11,12 @@ Two-factor authentication (2FA) is a feature that websites offer that make it
 harder for hackers to break into your account. Enable 2FA on critical websites
 like your email account.
 
-### What is the problem?
+### Problem
 
-When you log into a website you usually use your email address or a username and
-a password. Your password is a shared secret that only you and the website know.
-When you use this secret password with a website, it knows you must be who you
-say you are, because nobody else knows the password.
+When you log into a website, you usually use your 1) your email address or
+username and 2) a password. Your password is a shared secret that only you and
+the website know. When you use this secret password with a website, it knows you
+must be who you say you are, because nobody else knows the password.
 
 {{< figure src="2fa_01.svg" title="Diagram of a user logging into a website with an email address and password." >}}
 
@@ -33,14 +33,14 @@ focusing more on health-care data at an even larger scale [^2].
 For vital services like online government portals or email accounts, you may
 need additional security that a password alone cannot provide.
 
-### What is a solution?
+### Solution
 
-Today, many websites give the option to identify you not just using a secret
-password but also with your phone. Once you log in with your password, you would
-then use an app on your phone that shows a six-digit code and type it into the
-website. The website matches this code to you. Only someone with your phone can
-log into the website. Even if a hacker guesses your password or hacks the
-website's passwords, it is very unlikely that they will also have access to your
+Today, many websites give you the option of identifying yourself not just using
+a secret password but also with your phone. Once you log in with your password,
+you would then use an app on your phone that shows a six-digit code and type it
+into the website. The website matches this code to you. Only someone with your
+phone can log into the website. Even if a hacker guesses your password or hacks
+the website's passwords, it is unlikely that they will also have access to your
 phone.
 
 {{< figure src="2fa_02.svg" title="Diagram of a user logging into a website with not just an email and password but also a one-time code from their phone." >}}
@@ -53,7 +53,7 @@ websites also refer to 2FA as **two-factor verification**.
 
 ### Examples of how to use 2FA
 
-Search online for how to enable 2FA and you will usually find easy to follow
+When you search online for how to enable 2FA, you will usually find easy-to-follow
 instructions. For example:
 
 - for Gmail, search for ["gmail enable two factor
@@ -67,18 +67,8 @@ instructions. For example:
   work on Facebook?"](https://www.facebook.com/help/148233965247823/) with
   instructions to follow.
 
-When you enable 2FA if you can select the mode that uses codes that you find out
-by running an app. This is more secure than receiving codes by SMS text messages
-for valuable accounts hackers are willing to pretend to be you to your phone
-provider, steal you phone number, and then try to break into your account.
-
-Almost all websites today offer 2FA as a feature. If they don't, this is a sign
-that the company isn't focusing on security. You should look for other websites
-to use instead.
-
-### What can go wrong?
-
-If you don't have your phone or lose your phone, it will be difficult to get access to your account. Be sure to get backup codes from the website. These are 10 additional codes that you only use if you lose your phone. Print them out and keep them in a safe place. [^3] [^4]
+When you enable 2FA also print out backup codes that the website gives you. This
+will let you log in even if you forget or lose your phone. [^3] [^4]
 
 [^1]: https://en.wikipedia.org/wiki/List_of_data_breaches
 
