@@ -1,3 +1,17 @@
 .desc {
     font-style: normal;
 }
+
+figcaption h4 {
+    font-size: 0.8em;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
+
+figure img {
+    max-width: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
