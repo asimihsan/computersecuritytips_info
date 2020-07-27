@@ -48,8 +48,8 @@ phone.
 A password is **something you know**. A phone is **something you have**. By
 setting up a website to only recognize you based on both something you know and
 something you have, you are using **two-factor authentication (2FA)**. The first
-factor is your password, and the second factor is your phone number. Some
-websites also refer to 2FA as **two-factor verification**.
+factor is your password, and the second factor is your phone. Some websites also
+refer to 2FA as **two-factor verification**.
 
 ### Examples of how to use 2FA
 
@@ -69,6 +69,10 @@ instructions. For example:
 
 When you enable 2FA also print out backup codes that the website gives you. This
 will let you log in even if you forget or lose your phone. [^3] [^4]
+
+### Footnotes
+
+_These are references made during the article_.
 
 [^1]: https://en.wikipedia.org/wiki/List_of_data_breaches
 

@@ -1,3 +1,5 @@
 build
 public
 .DS_Store
+.mypy_cache
+.vscode

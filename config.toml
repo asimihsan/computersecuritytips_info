@@ -138,12 +138,6 @@ tag = "tags"
 page = "/:slug/"
 posts = "/:slug/"
 
-[[menu.main]]
-name = "About"
-weight = -10
-identifier = "repository"
-url = "/about/"
-
 [blackfriday]
 hrefTargetBlank = true
 
@@ -153,3 +147,10 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+[outputs]
+page = ["HTML", "JSON"]
+
+[outputFormats.plain]
+mediaType = "text/plain"
+isPlainText = true
