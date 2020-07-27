@@ -32,12 +32,12 @@ engineer to benefit from this blog and stay safe online.
 
 ![](/images/profile_200.png)
 
-I’m Asim Ihsan. I've worked as a software engineer at Amazon for six years, and
-in the software industry for twelve years. I’ve designed and worked on software
-systems that process sensitive data such as financial data for digital products
-and videos of people in Amazon Go. I also help other software engineers make
-secure systems on behalf of our customers. I'm passionate about computer
-security and computing in general.
+I’m [Asim Ihsan](https://asim.ihsan.io). I've worked as a software engineer at
+Amazon for six years, and in the software industry for twelve years. I’ve
+designed and worked on software systems that process sensitive data such as
+financial data for digital products and videos of people in Amazon Go. I also
+help other software engineers make secure systems on behalf of our customers.
+I'm passionate about computer security and computing in general.
 
 The views on this blog are my own and do not reflect my employer's views.
 

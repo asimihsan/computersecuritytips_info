@@ -23,6 +23,8 @@ figure img {
 .profile-img {
     text-align: center;
     margin-right: 0.5em;
+    border-radius: 50%;
+    float: left;
 }
 
 .profile-text {
