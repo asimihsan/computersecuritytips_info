@@ -15,3 +15,26 @@ figure img {
     margin-left: auto;
     margin-right: auto;
 }
+
+.sidebar {
+    text-align: left;
+}
+
+.profile-img {
+    text-align: center;
+    margin-right: 0.5em;
+}
+
+.profile-text {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.logo img {
+    max-width: 7em;
+}
+
+.site-title a {
+    color: black;
+    text-decoration: none;
+}

@@ -10,27 +10,36 @@ We do so much online now, and increasingly it's no longer an option to opt-out
 of being online. Despairingly, every day reveals yet another data breach,
 passwords being stolen, and people being duped.
 
-In this blog, "Computer Security Tips", I will educate you on security measures
-you can take to keep your online data and accounts safe. These measures are
-specific and easy to follow. Howver, they can still be hard to make a habit of.
-Being secure online is not a matter of installing the right product, or paying a
-lot for products. Staying safe and secure comes down to attitudes and habits.
-This is just like brushing your teeth twice a day, where you believe it is
-important and then build up a habit of doing so.
+In this blog, "Computer Security Tips," I will educate you on how you can keep
+your online data and accounts safe. These measures are specific and easy to
+follow. However, they can still be hard to make a habit of. Being secure online
+is not a matter of installing the right product or paying a lot for products.
+Staying safe and secure comes down to attitudes and habits. This is just like
+brushing your teeth twice a day, where you believe it is essential and then
+build up a habit of doing so.
 
-My name is Asim and I've been working for Amazon for around five years, of which
-I've spent two years at Amazon Web Services (AWS). I help other software
-engineers make secure systems on behalf of our customers. Please let me help you
-stay safe online!
+Research shows that users' attitude towards online security threats correlate
+with their adherence to proper security practices [^1] [^2]. Hence I will strive
+to teach you the theory and practices and also give you clear reasons why these
+practices make a difference.
 
-Research shows that user's attitude towards online security threats correlate
-with their adherence to good security practices [^1] [^2]. Hence I will strive
-to not just teach you the theory and practices, but also give you clear reasons
-why these practices make a difference.
-
-This blog is intended for non-software-engineers who are interested in keeping
+This blog is intended for non-computer-experts interested in keeping
 their online data and accounts safe but don't have time for long-winded
-explanations or expensive software pitches.
+explanations or expensive software pitches. You don't need to be a software
+engineer to benefit from this blog and stay safe online.
+
+### About me
+
+![](/images/profile_200.png)
+
+I’m Asim Ihsan. I've worked as a software engineer at Amazon for six years, and
+in the software industry for twelve years. I’ve designed and worked on software
+systems that process sensitive data such as financial data for digital products
+and videos of people in Amazon Go. I also help other software engineers make
+secure systems on behalf of our customers. I'm passionate about computer
+security and computing in general.
+
+The views on this blog are my own and do not reflect my employer's views.
 
 ### Footnotes
 

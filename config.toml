@@ -23,11 +23,11 @@ defaultContentLanguage = "en"
 
 [params.longDescription]
 content = """
-This blog will teach you just enough theory and practice about how computers and the Internet work to stay safe online. Please also read [about this blog](/about/).
+This blog will teach you just enough theory and practice about how computers and the Internet work to stay safe online. Non-computer-experts are welcome! [About this blog](/about/).
 """
 
 [params.info]
-description = "by [Asim Ihsan](https://asim.ihsan.io)"
+description = ""
 title404 = "Nothing's here!"
 
 [params.assets]
