@@ -30,7 +30,7 @@ engineer to benefit from this blog and stay safe online.
 
 ### About me
 
-![](/images/profile_200.png)
+{{< image_webp_fallback alt="" image="/images/profile_200.png" >}}
 
 I’m [Asim Ihsan](https://asim.ihsan.io). I've worked as a software engineer at
 Amazon for six years, and in the software industry for twelve years. I’ve

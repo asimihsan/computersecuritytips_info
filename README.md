@@ -1,6 +1,21 @@
 # computersecuritytips_info
 Blog about computer security tips for everyday folk. Hugo-based static blog.
 
+## How to get started after cloning
+
+```
+git submodule init
+git submodule update
+
+(cd themes/minimo && npm install)
+```
+
+When you first clone the repo you need to fix up the remote URI for the theme submodule:
+
+```
+(cd themes/minimo && git remote set-url origin git@github.com:asimihsan/minimo.git)
+```
+
 ## Building for local view
 
 ```
