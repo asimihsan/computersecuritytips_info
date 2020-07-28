@@ -5,7 +5,7 @@ draft: true
 slug: "about"
 menu: main
 description: "This blog is intended for non-computer-experts interested in keeping
-their online data and accounts safe. Written by Asim Ihsan."
+their online data and accounts safe."
 ---
 
 We do so much online now, and increasingly it's no longer an option to opt-out
@@ -41,7 +41,7 @@ financial data for digital products and videos of people in Amazon Go. I also
 help other software engineers make secure systems on behalf of our customers.
 I'm passionate about computer security and computing in general.
 
-The views on this blog are my own and do not reflect my employer's views.
+The opinions expressed in this blog are my own and not necessarily those of my employer.
 
 ### Footnotes
 

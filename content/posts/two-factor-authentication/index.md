@@ -7,12 +7,6 @@ description: "Two-factor authentication (2FA) is a feature that websites offer t
 harder for hackers to break into your account. Enable 2FA on critical websites."
 ---
 
-### Summary
-
-Two-factor authentication (2FA) is a feature that websites offer that make it
-harder for hackers to break into your account. Enable 2FA on critical websites
-like your email account.
-
 ### Problem
 
 When you log into a website, you usually use your 1) your email address or
