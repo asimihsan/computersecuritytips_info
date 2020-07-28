@@ -4,6 +4,8 @@ date: 2020-07-21T20:05:44-07:00
 draft: true
 slug: "about"
 menu: main
+description: "This blog is intended for non-computer-experts interested in keeping
+their online data and accounts safe. Written by Asim Ihsan."
 ---
 
 We do so much online now, and increasingly it's no longer an option to opt-out
